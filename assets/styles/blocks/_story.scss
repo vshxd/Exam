@@ -1,0 +1,43 @@
+.story {
+    background-color:#FFF8F5;
+    &__content {
+        display:flex;
+        margin-top: 85px;
+        padding-bottom: 125px;
+    }
+    &__image {
+        width: 743px;
+        height: 519px;
+    }
+    &__title {
+        font-family:$fCormorant;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 56px;
+        color:$primaryColor;
+        margin-bottom: 15px;
+    }
+    &__subtitle {
+        font-family:$fJosefin;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #555555;
+        margin-bottom: 25px;
+    }
+    &__signature {
+        font-family:$fJosefin;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px;
+        color: #555555;
+        text-transform: uppercase;
+        margin: 20px 0;
+    }
+    &__timeline {
+        display:flex;
+    }
+    &__text {
+        margin-left: 45px;
+    }
+}

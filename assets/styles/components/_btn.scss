@@ -1,0 +1,36 @@
+.btn {
+    font-family: $fJosefin;
+    font-weight: 400;
+    font-size: 22px;
+    color: #fff;
+    border: none;
+    display: inline-block;
+    transition: background-color .2s linear;
+
+    text-transform:capitalize;
+    &--primary {
+        padding: 20px 50px;
+        border: 2px solid $secondaryColor;
+        background-color: $primaryColor;
+        &:hover {
+            cursor: pointer;
+            background-color:$secondaryColor;
+        }
+    }
+    &--secondary {
+        padding: 20px 80px;
+        color: $primaryColor;
+        background-color:$secondaryColor;
+        &:hover {
+            cursor: pointer;
+            background-color:#e5bd80;
+        }
+    }
+    &--yellow {
+        color:#E1B168;
+        &:hover {
+            cursor: pointer;
+            color:#ffff;
+        }
+    }
+}

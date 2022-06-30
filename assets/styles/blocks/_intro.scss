@@ -1,0 +1,23 @@
+.intro {
+    background-color:$primaryColor;
+    &__content {
+        display: flex;
+        gap:55px;
+    }
+    &__subtitle {
+        font-family:$fCormorant;
+        font-weight: 400;
+        font-size:100px;
+        color: #ffffff;
+        line-height: 110px;
+        margin-top: 200px;
+    }
+    &__text {
+        font-family:$fJosefin;
+        font-weight: 400;
+        font-size: 20px;
+        color: #ffffff;
+        line-height: 30px;
+        margin: 35px 0;
+    }
+}

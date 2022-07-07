@@ -4,3 +4,17 @@
     background-color: #5C6168;
     position:absolute;
 }
+.separator {
+    width: 240px;
+    height: 2px;
+    background-color: #AAAAAA;
+    &--menu {
+        margin-top:75px;
+    }
+    &--testimonial-item {
+        width: 464px;
+        height: 1px;
+        background-color: #797E89;
+        margin: 20px 0;
+    }
+}

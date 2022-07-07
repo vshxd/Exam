@@ -1,0 +1,91 @@
+.reservation {
+    height: 977px;
+    background: url('../images/reservations/bg.jpg') center no-repeat;
+    background-size:cover;
+    &__form {
+        margin:140px 260px;
+        background: rgba(41, 46, 54, 0.95);
+        display:flex;
+        justify-content:center;
+        align-items:center;
+        flex-direction:column;
+        padding:140px 30px 140px 30px;
+        &__title {
+            font-family:$fJosefin;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            color:#fff;
+            border-top: 1px solid $secondaryColor;
+            border-bottom: 1px solid $secondaryColor;
+            text-transform:uppercase;
+            letter-spacing: 3px;
+            width: 135px;
+            margin: 0 auto 20px auto;
+            padding: 5px 0 5px 0;
+            text-align:center;
+        }
+        &__subtitle {
+            font-family:$fCormorant;
+            font-weight: 400;
+            font-size: 40px;
+            color:#fff;
+            text-align:center;
+            text-transform:capitalize;
+            margin-bottom:20px;
+        }
+        &__upper {
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            gap:26px;
+            margin-top:40px;
+        }
+        &__lower {
+            display:flex;
+            margin-top:30px;
+            gap:23px;
+        }
+        &__content {
+            width: 640px;
+        }
+    }
+}
+.form {
+    &__upper {
+        &__control {
+            width: 307px;
+            height: 70px;
+            font-family:$fJosefin;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            color:#fff;
+            border: 1px solid #858585;
+            background: rgba(41, 46, 54, 0.95);
+            outline:none;
+            padding-left:20px;
+            &::placeholder {
+                color:#fff;
+            }
+        }
+    }
+    &__lower {
+        &__control {
+            width: 198px;
+            height: 70px;
+            font-family:$fJosefin;
+            font-weight: 400;
+            font-size: 22px;
+            line-height: 33px;
+            color:#fff;
+            border: 1px solid #858585;
+            background: rgba(41, 46, 54, 0.95);
+            outline:none;
+            padding-left:20px;
+            &::placeholder {
+                color:#fff;
+            }
+        }
+    }
+}

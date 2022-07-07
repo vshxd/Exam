@@ -1,0 +1,153 @@
+.footer {
+    background-color:$primaryColor;
+    padding-top:130px;
+    &__info {
+        border-bottom:1px solid #575B62;
+        padding-bottom:20px;
+    }
+    &__copyright {
+        font-family:$fJosefin;
+        font-weight: 400;
+        font-size: 20px;
+        color:#fff;
+        &--secondary-color {
+            color:$secondaryColor;
+        }
+    }
+    &__text {
+        display:flex;
+        justify-content:space-between;
+        padding:20px 20px;
+
+    }
+    &__inner {
+        margin-bottom:15px;
+    }
+}
+.inner {
+    &__title {
+        font-family:$fJosefin;
+        font-weight: 400;
+        font-size: 22px;
+        color:#fff;
+    }
+    &__socials {
+        display:flex;
+        align-items:center;
+        gap:20px;
+    }
+}
+.info {
+    &__contact {
+        margin-top:110px;
+        &--wrapper {
+            font-family:$fJosefin;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            color:#fff;
+            border-top: 1px solid $secondaryColor;
+            border-bottom: 1px solid $secondaryColor;
+            text-transform:uppercase;
+            letter-spacing: 3px;
+            width: 92px;
+            padding: 5px 0 5px 0;
+        }
+
+        &__desc {
+            margin-top:30px;
+        }
+        &__text {
+            font-family:$fJosefin;
+            font-weight: 400;
+            font-size: 20px;
+            color:#fff;
+            margin-bottom:5px;
+        }
+        &__tel {
+            font-family:$fJosefin;
+            font-weight: 400;
+            font-size: 19px;
+            color:$secondaryColor;
+            margin-bottom:5px;
+        }
+        &__email {
+            font-family:$fJosefin;
+            font-weight: 400;
+            font-size: 19px;
+            color:$secondaryColor;
+            margin-bottom:5px;
+        }
+    }
+    &__mailing {
+        &__text {
+            font-family:$fJosefin;
+            font-weight: 400;
+            font-size: 20px;
+            color:#fff;
+            text-align:center;
+            &--wrapper {
+                margin-bottom:25px;
+            }
+        }
+        &__form {
+            display:flex;
+            &__item {
+                width: 460px;
+                height: 70px;
+                font-family: "Josefin Sans", sans-serif;
+                font-weight: 400;
+                font-size: 22px;
+                line-height: 33px;
+                color: #fff;
+                border: 1px solid #858585;
+                background: rgba(41, 46, 54, 0.95);
+                outline: none;
+                padding-left: 20px;
+                &::placeholder {
+                    color:#fff;
+                }
+            }
+        }
+    }
+    &__timing {
+        display:flex;
+        flex-direction:column;
+        align-items:flex-end;
+        &--wrapper {
+            font-family:$fJosefin;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            color:#fff;
+            border-top: 1px solid $secondaryColor;
+            border-bottom: 1px solid $secondaryColor;
+            text-transform:uppercase;
+            letter-spacing: 3px;
+            width: 175px;
+            padding: 5px 0 5px 0;
+        }
+        &__desc {
+            font-family:$fJosefin;
+            font-weight: 400;
+            font-size: 20px;
+            color:#fff;
+            margin-bottom:10px;
+            &--secondary-color {
+                color:$secondaryColor;
+                margin-right:10px;
+            }
+            &--wrapper {
+                margin-top:35px;
+                display:flex;
+                flex-direction:column;
+                align-items:flex-end;
+            }
+        }
+    }
+}
+.container {
+    &--footer-info {
+        align-items:flex-start;
+    }
+}

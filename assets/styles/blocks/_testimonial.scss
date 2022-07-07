@@ -1,0 +1,80 @@
+.testimonial {
+    background-color:$primaryColor;
+    padding: 140px 0 225px 0;
+    &__name {
+        font-family:$fJosefin;
+        font-weight: 400;
+        font-size: 15px;
+        color: #fff;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        border-top: 1px solid $secondaryColor;
+        border-bottom: 1px solid $secondaryColor;
+        width: 140px;
+        padding: 5px 0 5px 0;
+        margin-bottom: 20px;
+    }
+    &__title {
+        font-family:$fCormorant;
+        font-weight: 400;
+        font-size: 40px;
+        color:#fff;
+        text-transform: capitalize;
+        margin-bottom:15px;
+    }
+    &__subtitle {
+        font-family:$fJosefin;
+        font-weight: 400;
+        font-size: 20px;
+        color:#fff;
+        margin-bottom:80px;
+    }
+    &__item {
+        background-color:#343942;
+        padding:0 40px;
+        width: 40%;
+        align-self:baseline;
+        &__image--wrapper {
+            width: 113px;
+            height: 113px;
+        }
+        &__title {
+            margin-left:30px;
+        }
+        &__name {
+            font-family:$fCormorant;
+            font-weight: 400;
+            font-size: 30px;
+            color:#fff;
+            margin-bottom:10px;
+        }
+        &__location {
+            font-family:$fJosefin;
+            font-weight: 400;
+            font-size: 20px;
+            color:$secondaryColor;
+        }
+        &__text {
+            font-family:$fCormorant;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 38px;
+            letter-spacing: 0.25px;
+            color:#fff;
+        }
+        &__representing {
+            display:flex;
+            align-items:center;
+        }
+    }
+    &__items {    
+        display: flex;
+        gap: 30px;
+        flex-wrap: nowrap;
+        overflow: hidden;
+    }
+    &__slider {
+        margin-top: 85px;
+        text-align:center;
+    }
+}

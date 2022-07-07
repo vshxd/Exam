@@ -2,17 +2,11 @@
     background-color: $primaryColor;
 
     &__inner {
-        display:flex;
-        justify-content:space-between;
-        align-items: center;
         padding: 50px 0;
         border-bottom: 1px solid #5C6168;
     }
 
     &__info {
-        display:flex;
-        justify-content: space-between;
-        align-items:center;
         padding: 20px 5px;
     }
     &__socials {
@@ -39,6 +33,9 @@
             color:$secondaryColor
         }
     }
+    &--footer {
+        gap:20px;
+    }
 }
 
 .socials__link {
@@ -46,5 +43,17 @@
         .socials__icon path {
             fill:$secondaryColor;
         }
+    }
+}
+.container {
+    &--info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;    
+    }
+    &--inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }

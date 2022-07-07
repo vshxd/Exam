@@ -5,7 +5,7 @@
     color: #fff;
     border: none;
     display: inline-block;
-    transition: background-color .2s linear;
+    transition: background-color .2s linear, color .2s linear;
 
     text-transform:capitalize;
     &--primary {
@@ -27,10 +27,46 @@
         }
     }
     &--yellow {
-        color:#E1B168;
+        color:$secondaryColor;
         &:hover {
             cursor: pointer;
             color:#ffff;
         }
+    }
+    &--menu {
+        color:$secondaryColor;
+        background-color: #fff;
+        &:hover {
+            cursor:pointer;
+            color:#fff;
+            background-color:$secondaryColor;
+        }
+    }
+    &--popular-dishes {
+        display:block;
+        margin: 65px auto 0 auto;
+    }
+    &--blog {
+        position:absolute;
+        left:50%;
+        top: 50%;
+        transform:translate(-50%,-50%);
+        z-index: 1;
+        display: none;
+        transition: display  linear;
+    }
+    &--form {
+        background-color: #fff;
+        color:black;
+        border:none;
+        display:block;
+        margin:30px auto 0 auto;
+        &:hover {
+            color:#fff;
+        }
+    }
+    &--footer {
+        display:block;
+        margin:0;
     }
 }
